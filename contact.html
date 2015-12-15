@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Die4Games</title>
+		<link rel="shortcut icon" href="css/images/logo.ico">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<script src="js/contactjs.js"></script>
+		<script src="js/js.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+	</head>
+	<body class="contact loading">
+	
+		<!-- Header -->
+			<header id="header">
+				<h1 id="logo"><input type="image" align="top" src="css/images/logo.png" width="25" height="25" disabled><a> Die4Games</a></h1>
+				<nav id="nav">
+					<ul>
+						<li class="current"><a href="./">Welcome</a></li>
+						<li class="submenu">
+							<a href="">Games</a>
+							<ul>
+								<li><a href="poopmania">PoopMania</a></li>
+								<li><a href="skeletonHorde">Skeleton Horde</a></li>
+								<li><a href="contact">Contact</a></li>
+							</ul>
+						</li>
+						<li>
+						<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+							
+							<input type="hidden" name="cmd" value="_s-xclick">
+							<input type="hidden" name="hosted_button_id" value="SNUJE8FZUU658">
+							<input type="image"  align="top" src="css/images/donate.png" name="submit" alt="PayPal - The safer, easier way to pay online!">
+							<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+
+						</form>
+						</li>
+
+					</ul>
+				</nav>
+			</header>
+		
+		<!-- Main -->
+			<article id="main">
+
+				<header class="special container">
+					<span class="icon fa-envelope"></span>
+					<h2>Get In Touch</h2>
+					<p>If you need to ask a question or share with us something, we are happy to assist you.</p>
+				</header>
+					
+				<!-- One -->
+					<section class="wrapper style4 special container small">
+					<form id="contactForm" action="#" method="post">
+						<!-- Content -->
+							<div class="content">
+								<form>
+									<div class="row half no-collapse-1">
+										<div class="6u">
+											<input type="text" id="name" name="name" placeholder="Name" />
+										</div>
+										<div class="6u">
+											<input type="text" id="email" name="email" placeholder="Email" />
+										</div>
+									</div>
+									<div class="row half">
+										<div class="12u">
+											<input type="text" id="subject" name="subject" placeholder="Subject" />
+										</div>
+									</div>
+									<div class="row half">
+										<div class="12u">
+											<textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
+										</div>
+									</div>
+									<div class="row">
+										<div class="12u">
+											<ul class="buttons">
+												<li><a id="send" name="submit" class="button special">Send Message</a></li>
+											</ul>
+										</div>
+									</div>
+								</form>
+							</div>
+							<!-- send mail configuration -->
+									<input type="hidden" value="send-mail.php" name="sendMailUrl" id="sendMailUrl" />
+							<!-- ENDS send mail configuration -->
+							<p id="error" name="error"></p>
+							<p id="success" name="success">Thanks for contact us.</p>
+					</form>
+					</section>
+				
+			</article>
+
+		<!-- Footer -->
+			<footer id="footer"></footer>
+
+	</body>
+</html>
